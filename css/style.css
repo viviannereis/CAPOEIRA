@@ -1,0 +1,296 @@
+@import "colors.css";
+@import "nav-header.css";
+@import "/css/components/footer.css";
+@import "/css/components/menu.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prosto One', cursive !important;
+}
+
+.text-red {
+    color: var(--red) !important;
+}
+
+.section-info {
+    background: var(--red);
+    color: white;
+    margin: 4rem 0 0;
+    padding: 2rem 2rem 6rem;
+    border-radius: 2rem;
+}
+
+.section-info h2 {
+    color: white;
+}
+
+.section-info h4 {
+    color: white;
+    margin: 0 !important;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+/***** *****/
+.box-diferenciais {
+    box-shadow: 0px -34px 0px -14px var(--red-light),
+    0px 39px 0px -21px var(--red-light),
+    1px 0px 205px 11px rgba(0,0,0,0.22);;
+    background: var(--gray);
+    padding: 2rem;
+    position: relative;
+    top: -2rem;
+}
+
+.title-diferenciais h1,
+.title-diferenciais p {
+    color: var(--red);
+}
+
+.title-diferenciais p {
+    margin: 0 !important;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.title-diferenciais h1 {
+    margin-top: 0 !important;
+}
+
+#nossosDiferenciais h6 {
+    text-transform: uppercase;
+    color:var(--red);
+    letter-spacing: 2px;
+}
+
+.sobre-contact {
+    display: grid;
+    justify-items: center;
+    margin-top:3rem;
+}
+
+.sobre-contact h4 {
+    color: var(--red);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card-number {
+    background: var(--red);
+    box-shadow: 0px -34px 0px -14px var(--red-light), 0px 15px 28px 0px rgba(0,0,0,0.22);
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.card-number h1 {
+    color: white !important;
+}
+
+.title-depoimentos {
+    color: var(--red);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.card-depoimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 1rem 3rem;
+    padding: 1rem;
+    border-top: 3px solid var(--red);
+    border-bottom: 3px solid var(--red);
+}
+
+.text-depoimento {
+    line-height: 1.5px;
+    color: var(--red);
+}
+
+.photo-container {
+    width: 350px;
+    height: 150px;
+    border-radius: 50%;
+    outline: 6px solid var(--red);
+    overflow: hidden;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.uk-dotnav>.uk-active>* {
+    background-color: var(--red) !important;
+}
+
+.uk-slidenav {
+    background: var(--red) !important;
+    border-radius: 5rem !important;
+    color: white !important;
+}
+
+.img-aluno {
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+
+.close:hover,
+.close:focus {
+  box-shadow: 
+    inset -3.5em 0 0 0 var(--hover),
+    inset 3.5em 0 0 0 var(--hover);  
+}
+
+#postsBlog .uk-card {
+    border: 1px solid var(--red);
+    transition: all 0.3s ease;
+}
+
+#postsBlog .uk-card:hover {
+    -webkit-transform: translate(20px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+    box-shadow: 0px 9px 30px 0px rgba(208,2,27,0.11);
+    border: 2px solid var(--red);
+}
+
+#postsBlog .uk-card-body {
+    height: 200px;
+}
+
+#postsBlog .uk-card-media-top img {
+    width: 100%;
+    height: 250px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+#postsBlog .uk-icon-button {
+    position: absolute;
+    top: 235px;
+}
+
+#postBlog .uk-card-title h3 {
+    color: var(--red) !important;
+}
+
+.text-blog a {
+    color: var(--red) !important;
+    font-family: 'Prosto One', cursive !important;
+}
+
+/*** Button ***/
+.button{
+    position: relative;
+    background-color: var(--red);
+    border-radius: 4em;
+    font-size: 14px;
+    color: white !important;
+    padding: 0.7em 2.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    font-family: 'Prosto One', cursive !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+  
+.button:hover {
+    transition-duration: 0.1s;
+    background-color: var(--red-dark);
+}
+  
+.button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+}
+  
+.button:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+}
+  
+.button:active {
+    top: 1px;
+}
+
+#numeros h2 {
+    text-transform: uppercase;
+    color: var(--red);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#nossoTime .uk-h5, h5,
+#nossoTime .uk-h4, h4 {
+    margin: 0 !important;
+    color: var(--red) !important;
+}
+
+#multimidia img {
+    width: 320px;
+}
+
+.d-flex-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

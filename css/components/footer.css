@@ -1,0 +1,15 @@
+.footer-1 {
+    background: var(--red-light);
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+
+.footer-1 h6 {
+    color: var(--red);
+    font-size: 17px;
+}
+
+.uk-icon-button {
+    background: var(--red) !important;
+    color: white !important;
+}
