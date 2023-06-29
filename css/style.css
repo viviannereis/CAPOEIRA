@@ -2,10 +2,10 @@
 @import "nav-header.css";
 @import "/css/components/footer.css";
 @import "/css/components/menu.css";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Akaya+Kanadaka&display=swap');
 
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,13 +18,10 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Abel', sans-serif !important;
     font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Prosto One', cursive !important;
-}
 
 .text-red {
     color: var(--red) !important;
@@ -52,13 +49,15 @@ h1, h2, h3, h4, h5, h6 {
 /***** *****/
 .box-diferenciais {
     box-shadow: 0px -34px 0px -14px var(--red-light),
-    0px 39px 0px -21px var(--red-light),
-    1px 0px 205px 11px rgba(0,0,0,0.22);;
+        0px 39px 0px -21px var(--red-light),
+        1px 0px 205px 11px rgba(0, 0, 0, 0.22);
+    ;
     background: var(--gray);
     padding: 2rem;
     position: relative;
     top: -2rem;
 }
+
 
 .title-diferenciais h1,
 .title-diferenciais p {
@@ -78,25 +77,36 @@ h1, h2, h3, h4, h5, h6 {
 
 #nossosDiferenciais h6 {
     text-transform: uppercase;
-    color:var(--red);
+    color: var(--red);
     letter-spacing: 2px;
 }
 
 .sobre-contact {
     display: grid;
     justify-items: center;
-    margin-top:3rem;
+    margin-top: 0;
+    background-image: url(../img/home/fundo.svg);
+    background-size: cover;
+
 }
 
 .sobre-contact h4 {
     color: var(--red);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 0;
+    padding: 200px;
+    letter-spacing: 10px;
+}
+
+.section-contact {
+    position: relative;
+    top: -150px;
+
 }
 
 .card-number {
     background: var(--red);
-    box-shadow: 0px -34px 0px -14px var(--red-light), 0px 15px 28px 0px rgba(0,0,0,0.22);
+    box-shadow: 0px -34px 0px -14px var(--red-light), 0px 15px 28px 0px rgba(0, 0, 0, 0.22);
     color: white;
     border-radius: 5px;
     padding: 1rem;
@@ -120,10 +130,15 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     gap: 40px;
+
+}
+
+.style-depoimentos {
     margin: 1rem 3rem;
-    padding: 1rem;
-    border-top: 3px solid var(--red);
-    border-bottom: 3px solid var(--red);
+    background: var(--gray);
+    padding: 50px;
+    border-radius: 30px;
+
 }
 
 .text-depoimento {
@@ -132,8 +147,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .photo-container {
-    width: 350px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     outline: 6px solid var(--red);
     overflow: hidden;
@@ -148,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .uk-dotnav>.uk-active>* {
     background-color: var(--red) !important;
+
 }
 
 .uk-slidenav {
@@ -169,13 +185,13 @@ button {
     line-height: 1;
     margin: 0.5em;
     padding: 1em 2em;
-  }
+}
 
 .close:hover,
 .close:focus {
-  box-shadow: 
-    inset -3.5em 0 0 0 var(--hover),
-    inset 3.5em 0 0 0 var(--hover);  
+    box-shadow:
+        inset -3.5em 0 0 0 var(--hover),
+        inset 3.5em 0 0 0 var(--hover);
 }
 
 #postsBlog .uk-card {
@@ -187,7 +203,7 @@ button {
     -webkit-transform: translate(20px, -10px);
     -ms-transform: translate(10px, -10px);
     transform: translate(10px, -10px);
-    box-shadow: 0px 9px 30px 0px rgba(208,2,27,0.11);
+    box-shadow: 0px 9px 30px 0px rgba(208, 2, 27, 0.11);
     border: 2px solid var(--red);
 }
 
@@ -215,58 +231,58 @@ button {
 
 .text-blog a {
     color: var(--red) !important;
-    font-family: 'Prosto One', cursive !important;
 }
 
 /*** Button ***/
-.button{
+.button {
     position: relative;
     background-color: var(--red);
     border-radius: 4em;
     font-size: 14px;
     color: white !important;
     padding: 0.7em 2.8em;
-    cursor:pointer;
-    user-select:none;
+    cursor: pointer;
+    user-select: none;
     text-align: center;
     text-decoration: none !important;
     cursor: pointer;
     transition-duration: 0.4s;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    font-family: 'Prosto One', cursive !important;
+    -webkit-transition-duration: 0.4s;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Abel', sans-serif !important;
 }
-  
+
 .button:hover {
     transition-duration: 0.1s;
     background-color: var(--red-dark);
+    color: #ffffff !important;
 }
-  
+
 .button:after {
     content: "";
     display: block;
     position: absolute;
     border-radius: 4em;
     left: 0;
-    top:0;
+    top: 0;
     width: 100%;
     height: 100%;
     opacity: 0;
     transition: all 0.5s;
     box-shadow: 0 0 10px 40px white;
 }
-  
+
 .button:active:after {
     box-shadow: 0 0 0 0 white;
     position: absolute;
     border-radius: 4em;
     left: 0;
-    top:0;
+    top: 0;
     opacity: 1;
     transition: 0s;
 }
-  
+
 .button:active {
     top: 1px;
 }
@@ -278,8 +294,10 @@ button {
     text-align: center;
 }
 
-#nossoTime .uk-h5, h5,
-#nossoTime .uk-h4, h4 {
+#nossoTime .uk-h5,
+h5,
+#nossoTime .uk-h4,
+h4 {
     margin: 0 !important;
     color: var(--red) !important;
 }
@@ -293,4 +311,132 @@ button {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.text-title {
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-size: 25px;
+}
+
+.text-numeros {
+    background-color: red;
+    color: #ffffff !important;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0;
+
+}
+
+.text-numeros h2,
+.text-numeros h5 {
+    color: #ffffff !important;
+    margin: 0 !important;
+    font-family: 'Abel', sans-serif !important;
+
+}
+
+.align-numeros {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title-numeros {
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    color: var(--red);
+    font-family: 'Akaya Kanadaka', cursive !important;
+}
+
+.font-akaya {
+    font-family: 'Akaya Kanadaka', cursive !important;
+}
+
+.text-nav {
+    padding: 20px;
+
+}
+
+.w50 {
+    width: 50%;
+}
+
+.slider-black {
+    background: black;
+    padding: 200px;
+    border-radius: 0 75px 75px 0;
+}
+
+.slider-black h1 {
+    color: #ffffff;
+    font-family: 'Akaya Kanadaka', cursive !important;
+    font-size: 80px;
+    text-shadow: -3px -1px 1px #ec0023;
+}
+
+.slider-black h3 {
+    color: var(--red-light) !important;
+    font-family: 'Abel', sans-serif !important;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.slider-black p {
+    color: #ffffff;
+    font-family: 'Abel', sans-serif !important;
+    font-size: 40px;
+}
+
+.slider-img {
+    border-radius: 75px 0px 0px 75px;
+    background-attachment: fixed;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    position: inherit;
+    height: 1000px !important;
+}
+
+.slider-1 {
+    background: linear-gradient(rgba(227, 9, 9, 0.25), rgba(227, 9, 9, 0.25)), url(/img/header/img1.jpg) no-repeat;
+}
+
+.slider-2 {
+    background: linear-gradient(rgba(227, 9, 9, 0.25), rgba(227, 9, 9, 0.25)), url(/img/header/img2.png) no-repeat;
+}
+
+.slider-3 {
+    background: linear-gradient(rgba(227, 9, 9, 0.25), rgba(227, 9, 9, 0.25)), url(/img/header/img3.png) no-repeat;
+}
+
+.slider-4 {
+    background: linear-gradient(rgba(227, 9, 9, 0.25), rgba(227, 9, 9, 0.25)), url(/img/header/img4.png) no-repeat;
+}
+
+.slider-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    position: relative;
+    top: -150px;
+    right: 450px;
+    align-items: center;
+}
+
+.slider-btn .previous {
+    width: 80px !important;
+    height: 80px !important;
+    background: #ffffff !important;
+}
+
+.slider-btn .previous svg {
+    width: 30px;
+    margin: 10px 15px !important;
+    color: black !important;
+}
+
+.slider-btn .uk-dotnav li a {
+    width: 25px !important;
+    height: 25px !important;
 }
