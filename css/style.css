@@ -364,14 +364,14 @@ h4 {
 
 .slider-black {
     background: black;
-    padding: 200px;
+    padding: 150px;
     border-radius: 0 75px 75px 0;
 }
 
 .slider-black h1 {
     color: #ffffff;
     font-family: 'Akaya Kanadaka', cursive !important;
-    font-size: 80px;
+    font-size: 55px;
     text-shadow: -3px -1px 1px #ec0023;
 }
 
@@ -380,13 +380,13 @@ h4 {
     font-family: 'Abel', sans-serif !important;
     letter-spacing: 8px;
     text-transform: uppercase;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .slider-black p {
     color: #ffffff;
     font-family: 'Abel', sans-serif !important;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .slider-img {
@@ -420,23 +420,46 @@ h4 {
     gap: 25px;
     position: relative;
     top: -150px;
-    right: 450px;
+    right: 210px;
     align-items: center;
 }
 
 .slider-btn .previous {
-    width: 80px !important;
-    height: 80px !important;
+    width: 50px !important;
+    height: 50px !important;
     background: #ffffff !important;
 }
 
 .slider-btn .previous svg {
-    width: 30px;
-    margin: 10px 15px !important;
+    width: 15px;
+    margin: 7px 10px !important;
     color: black !important;
 }
 
 .slider-btn .uk-dotnav li a {
-    width: 25px !important;
-    height: 25px !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1400px) {
+    .slider-black h1 {
+        color: #ffffff;
+        font-family: 'Akaya Kanadaka', cursive !important;
+        font-size: 55px;
+        text-shadow: -3px -1px 1px #ec0023;
+    }
+    
+    .slider-black h3 {
+        color: var(--red-light) !important;
+        font-family: 'Abel', sans-serif !important;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+    .slider-black p {
+        color: #ffffff;
+        font-family: 'Abel', sans-serif !important;
+        font-size: 25px;
+    }
 }
