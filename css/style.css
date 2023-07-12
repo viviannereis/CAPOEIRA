@@ -365,7 +365,6 @@ h4 {
 .slider-black {
     background: black;
     padding: 150px;
-    border-radius: 0 75px 75px 0;
 }
 
 .slider-black h1 {
@@ -390,7 +389,7 @@ h4 {
 }
 
 .slider-img {
-    border-radius: 75px 0px 0px 75px;
+    border-radius: 0px 0px 0px 0px;
     background-attachment: fixed;
     background-size: cover !important;
     background-repeat: no-repeat;
@@ -399,19 +398,19 @@ h4 {
 }
 
 .slider-1 {
-    background: linear-gradient(rgba(227, 9, 9, 0.25), rgba(227, 9, 9, 0.25)), url(/img/header/img1.jpg) no-repeat;
+    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img1.jpg) no-repeat;
 }
 
 .slider-2 {
-    background: linear-gradient(rgba(227, 9, 9, 0.25), rgba(227, 9, 9, 0.25)), url(/img/header/img2.png) no-repeat;
+    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img2.png) no-repeat;
 }
 
 .slider-3 {
-    background: linear-gradient(rgba(227, 9, 9, 0.25), rgba(227, 9, 9, 0.25)), url(/img/header/img3.png) no-repeat;
+    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img3.png) no-repeat;
 }
 
 .slider-4 {
-    background: linear-gradient(rgba(227, 9, 9, 0.25), rgba(227, 9, 9, 0.25)), url(/img/header/img4.png) no-repeat;
+    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img4.png) no-repeat;
 }
 
 .slider-btn {
@@ -448,7 +447,7 @@ h4 {
         font-size: 55px;
         text-shadow: -3px -1px 1px #ec0023;
     }
-    
+
     .slider-black h3 {
         color: var(--red-light) !important;
         font-family: 'Abel', sans-serif !important;
@@ -456,7 +455,7 @@ h4 {
         text-transform: uppercase;
         font-size: 30px;
     }
-    
+
     .slider-black p {
         color: #ffffff;
         font-family: 'Abel', sans-serif !important;
