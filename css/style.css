@@ -162,7 +162,7 @@ body {
 }
 
 .uk-dotnav>.uk-active>* {
-    background-color: var(--red) !important;
+    background-color: #ffffff !important;
 
 }
 
