@@ -20,6 +20,12 @@ a:hover {
     color: var(--red) !important;
 }
 
+#menu .uk-search-icon {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
 .logo img {
     width: 300px;
     /*position: absolute;*/
