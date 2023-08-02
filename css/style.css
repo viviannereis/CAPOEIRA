@@ -368,9 +368,10 @@ h4 {
     width: 600px;
     height: 600px;
     border-radius: 50%;
-    padding: 30px;
+    padding: 100px;
     margin: 20px;
     box-shadow: 0 0 31px 13px #e30909;
+    text-align: center;
 }
 
 
@@ -392,7 +393,7 @@ h4 {
 .slider-black p {
     color: #ffffff;
     font-family: 'Abel', sans-serif !important;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .slider-img {
@@ -405,19 +406,19 @@ h4 {
 }
 
 .slider-1 {
-    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img1.jpg) no-repeat;
+    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img-1.png) no-repeat;
 }
 
 .slider-2 {
-    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img2.png) no-repeat;
+    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img-2.jpg) no-repeat;
 }
 
 .slider-3 {
-    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img3.png) no-repeat;
+    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img-3.png) no-repeat;
 }
 
 .slider-4 {
-    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img4.png) no-repeat;
+    background: linear-gradient(rgba(227, 9, 9, 0.16), rgba(227, 9, 9, 0.25)), url(/img/header/img-4.png) no-repeat;
 }
 
 .slider-btn {
@@ -425,8 +426,8 @@ h4 {
     justify-content: flex-end;
     gap: 25px;
     position: relative;
-    top: -150px;
-    right: 210px;
+    top: -280px;
+    right: 200px;
     align-items: center;
 }
 
@@ -467,5 +468,10 @@ h4 {
         color: #ffffff;
         font-family: 'Abel', sans-serif !important;
         font-size: 25px;
+    }
+
+    .slider-btn {
+        top: -230px;
+        right: 200px
     }
 }
